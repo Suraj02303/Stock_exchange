@@ -1,0 +1,20 @@
+<br><br>
+
+<div class="jumbotron">
+  <h1 class="display-4">{{stock.companyName }} ({{stock.symbol}})</h1>
+  
+  <hr class="my-4">
+	<strong>Open At</strong> $ {{stock.open}}</br>
+	<strong>Open Source</strong> : {{stock.openSource}}</br>
+	<strong>Close At</strong> $ {{stock.close}}</br>
+	<strong>Close Source</strong> : {{stock.closeSource}}</br>
+	<strong>wk52High</strong> $ {{stock.week52High}}</br>
+	<strong>wk52Low</strong> $ {{stock.week52Low}}</br>
+	<strong>Market Capital</strong> $ {{stock.marketCap}}</br>
+</div>
+
+
+<!--
+{{#each stock}}
+	<h3>{{@key}} | {{this}} </h3><br/>
+{{/each}}-->
